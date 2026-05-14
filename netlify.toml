@@ -1,8 +1,5 @@
-[build]
-  command = "npm run build"
-  publish = "dist/client"
-
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
+# This project is deployed to Cloudflare Pages, not Netlify
+# Use Cloudflare Pages with the following settings:
+# Build command: npm run build
+# Output directory: dist/server
+# Functions directory: functions
