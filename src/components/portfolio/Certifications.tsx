@@ -3,9 +3,21 @@ import { Award, ExternalLink } from "lucide-react";
 import { Section } from "./Section";
 
 const certs = [
-  { title: "HTML & CSS Bootcamp", issuer: "LetsUpgrade" },
-  { title: "Python Course", issuer: "GeeksforGeeks" },
-  { title: "AI & Machine Learning Internship", issuer: "SmartBridge" },
+  {
+    title: "HTML & CSS Bootcamp",
+    issuer: "LetsUpgrade",
+    url: "https://www.linkedin.com/in/undelakavya/details/certifications/",
+  },
+  {
+    title: "Python Course",
+    issuer: "GeeksforGeeks",
+    url: "https://www.linkedin.com/posts/undelakavya_python-geeksforgeeks-certificateofcompletion-share-7344691270281285632-P84H?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEzoAgsBgmP3gHSG2s9Ia_hcNpCTAoT9ZQA",
+  },
+  {
+    title: "AI & Machine Learning Internship",
+    issuer: "SmartBridge",
+    url: "https://www.linkedin.com/in/undelakavya/details/certifications/",
+  },
 ];
 
 export function Certifications() {
@@ -33,7 +45,9 @@ export function Certifications() {
             <h3 className="mt-5 font-display text-lg text-silver-bright">{c.title}</h3>
             <p className="mt-1 text-sm text-muted-foreground">{c.issuer}</p>
             <a
-              href="#"
+              href={c.url}
+              target="_blank"
+              rel="noreferrer"
               className="mt-5 inline-flex items-center gap-1.5 text-xs font-semibold text-silver transition-colors hover:text-silver-bright"
             >
               View Certificate <ExternalLink size={12} />
