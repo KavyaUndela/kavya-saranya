@@ -15,8 +15,8 @@ const projects = [
       "Optimized for low-bandwidth users",
     ],
     stack: ["React.js", "Node.js", "MongoDB", "Firebase"],
-    github: "#",
-    demo: "#",
+    github: "https://github.com/KavyaUndela",
+    demo: "https://sih-nine-theta.vercel.app/",
   },
   {
     title: "Prosperity Prognosticator – Startup Success Prediction",
@@ -29,8 +29,8 @@ const projects = [
       "Improved prediction reliability",
     ],
     stack: ["Python", "Scikit-learn", "Pandas", "ML"],
-    github: "#",
-    demo: "#",
+    github: "https://github.com/KavyaUndela",
+    demo: "https://startup-success-prediction-01.onrender.com/",
   },
 ];
 

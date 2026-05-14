@@ -69,8 +69,9 @@ export function Hero() {
             <motion.a
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.97 }}
-              href="/resume.pdf"
-              download
+              href="https://drive.google.com/file/d/1loUXReVUnqzMmPBr7hYfGIgnhvKjKHKz/view?usp=drivesdk"
+              target="_blank"
+              rel="noreferrer"
               className="inline-flex items-center gap-2 rounded-full border border-silver/30 bg-silver/5 px-5 py-2.5 text-sm font-semibold text-silver-bright transition-all hover:bg-silver/10"
             >
               <Download size={16} /> Resume

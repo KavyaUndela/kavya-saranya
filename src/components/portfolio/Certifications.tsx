@@ -6,7 +6,7 @@ const certs = [
   {
     title: "HTML & CSS Bootcamp",
     issuer: "LetsUpgrade",
-    url: "https://www.linkedin.com/in/undelakavya/details/certifications/",
+    url: "https://www.linkedin.com/posts/undelakavya_letupgrade-bootcampgraduate-continuouslearning-activity-7245136537313550336-Sp9N?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEzoAgsBgmP3gHSG2s9Ia_hcNpCTAoT9ZQA",
   },
   {
     title: "Python Course",
@@ -15,8 +15,8 @@ const certs = [
   },
   {
     title: "AI & Machine Learning Internship",
-    issuer: "SmartBridge",
-    url: "https://www.linkedin.com/in/undelakavya/details/certifications/",
+    issuer: "SmartInternz",
+    url: "https://www.linkedin.com/posts/undelakavya_internship-smartinternz-learningjourney-activity-7440958687881515008-f-ME?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEzoAgsBgmP3gHSG2s9Ia_hcNpCTAoT9ZQA",
   },
 ];
 
