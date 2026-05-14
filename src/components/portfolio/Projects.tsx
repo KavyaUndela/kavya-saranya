@@ -30,7 +30,7 @@ const projects = [
     ],
     stack: ["Python", "Scikit-learn", "Pandas", "ML"],
     github: "https://github.com/KavyaUndela",
-    demo: "https://startup-success-prediction-01.onrender.com/",
+    demo: "https://startup-success-predict-o87c.onrender.com",
   },
 ];
 
