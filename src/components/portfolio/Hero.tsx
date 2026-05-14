@@ -29,10 +29,8 @@ export function Hero() {
             Available for opportunities
           </span>
 
-          <h1 className="mt-6 font-display text-5xl leading-[1.05] sm:text-6xl lg:text-7xl">
-            <span className="text-silver-gradient">Undela Kavya</span>
-            <br />
-            <span className="text-foreground">Saranya</span>
+          <h1 className="mt-6 whitespace-nowrap font-display text-3xl leading-[1.05] sm:text-5xl lg:text-6xl">
+            <span className="text-silver-gradient">Undela Kavya Saranya</span>
           </h1>
 
           <p className="mt-5 text-lg font-medium text-silver">
