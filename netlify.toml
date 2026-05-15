@@ -1,5 +1,15 @@
-# This project is deployed to Cloudflare Pages, not Netlify
-# Use Cloudflare Pages with the following settings:
-# Build command: npm run build
-# Output directory: dist/server
-# Functions directory: functions
+[build]
+	command = "npm run build"
+	publish = "dist"
+	# If you use Netlify Functions, set the functions directory here
+	# functions = "netlify/functions"
+
+[[redirects]]
+	from = "/*"
+	to = "/index.html"
+	status = 200
+
+# Notes:
+# - Netlify will read this file and use the `build.command` and `publish` settings.
+# - For a Vite SPA, the built files are in `dist` and the redirect above enables
+#   client-side routing by serving `index.html` for unknown routes.

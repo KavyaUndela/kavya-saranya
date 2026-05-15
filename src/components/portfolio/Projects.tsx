@@ -15,7 +15,7 @@ const projects = [
       "Optimized for low-bandwidth users",
     ],
     stack: ["React.js", "Node.js", "MongoDB", "Firebase"],
-    github: "https://github.com/KavyaUndela",
+    github: "https://github.com/KavyaUndela/SkillRise.git",
     demo: "https://sih-nine-theta.vercel.app/",
   },
   {
@@ -29,8 +29,8 @@ const projects = [
       "Improved prediction reliability",
     ],
     stack: ["Python", "Scikit-learn", "Pandas", "ML"],
-    github: "https://github.com/KavyaUndela",
-    demo: "https://startup-success-predict-o87c.onrender.com",
+    github: "https://github.com/KavyaUndela/Prosperity-Prognosticator_Machine-Learning-for-Startup-Success-Prediction.git",
+    demo: "https://startup-success-prediction-2xhv.onrender.com",
   },
 ];
 
